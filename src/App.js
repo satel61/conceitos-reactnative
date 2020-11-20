@@ -92,11 +92,12 @@ const styles = StyleSheet.create({
   repositoryContainer: {
     marginBottom: 15,
     marginHorizontal: 15,
-    backgroundColor: "#fff",
+    backgroundColor: "#f8f8ff",
     padding: 20,
+    borderRadius: 10,
   },
   repository: {
-    fontSize: 32,
+    fontSize: 42,
     fontWeight: "bold",
   },
   techsContainer: {
@@ -104,13 +105,14 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   tech: {
-    fontSize: 12,
+    fontSize: 32,
     fontWeight: "bold",
     marginRight: 10,
     backgroundColor: "#04d361",
     paddingHorizontal: 10,
     paddingVertical: 5,
     color: "#fff",
+    borderRadius: 10,
   },
   likesContainer: {
     marginTop: 15,
@@ -118,19 +120,24 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   likeText: {
-    fontSize: 14,
+    fontSize: 22,
     fontWeight: "bold",
     marginRight: 10,
   },
   button: {
     marginTop: 10,
+    justifyContent: 'center',
+    alignItems: 'center'
+    
   },
   buttonText: {
-    fontSize: 14,
+    fontSize: 22,
     fontWeight: "bold",
-    marginRight: 10,
+    marginRight: 230,
     color: "#fff",
     backgroundColor: "#7159c1",
     padding: 15,
+    borderRadius: 10,
+   
   },
 });
